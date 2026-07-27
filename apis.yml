@@ -1,7 +1,27 @@
 aid: immune-path
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/immune-path.png
 name: immune-path
-description: immune-path is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Immune-Path (Yidao Biotechnology (Suzhou) Co., Ltd. / 怡道生物) is a China-based
+  vaccine biotechnology company founded in 2017 and headquartered in Suzhou. The company
+  develops human vaccines across recombinant protein antigen, novel viral vector, and
+  messenger RNA (mRNA) platforms, backed by its own vaccine adjuvant technology. Its clinical
+  and preclinical pipeline includes a recombinant zoster (shingles) vaccine produced in CHO
+  cells, a nine-valent recombinant HPV vaccine expressed in Pichia pastoris, a respiratory
+  syncytial virus (RSV) vaccine, a therapeutic gastric cancer vaccine, and a COVID-19 vaccine.
+  Immune-Path is a portfolio company of Qiming Venture Partners. It is a life-sciences drug
+  developer with no public developer, API, or software surface; this profile is maintained
+  as a company record in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/immune-path/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +29,21 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Vaccines
+- Immunology
+- Pharmaceuticals
+- Life Sciences
+- Drug Development
+- mRNA
+- Healthcare
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,8 @@ maintainers:
 common:
 - type: Website
   url: https://immune-path.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
